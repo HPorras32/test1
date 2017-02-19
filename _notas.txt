@@ -1,0 +1,64 @@
+Bootstrap
+=========
+Todo el contenido en un class ".container" o ".container-fluid":
+	.container: contenedor de ancho fijo
+	.container-fluid: contenedor de ancho 100%
+
+Sistema de rejillas, para tablas
+	Hasta 12 columnas
+	Estructura:
+	<div class="row">
+		<div class="col-A-B"></div>
+	</div>
+	<div class="row">
+		<div class="col-A-B"></div>
+		<div class="col-A-B"></div>
+		<div class="col-A-B"></div>
+	</div>
+
+	A: xs (telefonos), sm (tablets), md (escritorios), lg (escritorios grandes); El estilo se aplica desde este _class_ hacia arriba: col-sm-4 define una columna de ancho 4, que se muestra desde tablets hasta escritorios grandes, pero en telefonos la columna se apila con las demás.
+	B: Numeros, que deben sumar 12 entre todas las columnas.
+
+Encabezados (H1-H6)
+	H1: 36 px
+	H2: 30 px
+	H3: 24 px
+	H4: 18 px
+	H5: 14 px
+	H6: 12 px
+	<small>			: Texto mas claro dentro de encabezados
+<mark>				: subrayado estilo marca-textos, amarillo claro.
+<abbr>				: subrayado de puntos, cursor "question"
+<blockquote>	: para citas de otra fuente. Contenido con <p> y referencia con <footer>. class disponible: blockquote-reverse
+<dl>					: listas de descripciones.
+	<dl>
+		<dt>Coffee</dt>: texto en negritas
+		<dd>black hot drink</dd>: texto normal
+	</dl>
+<code>	: Texto monoespaciado, color rojo, fondo rojo claro.
+<kbd>		: keyboard, texto monoespaciado, color blanco, fondo negro.
+<pre>		: texto monoespaciado, color negro, en bloque con fondo gris claro.
+
+Contextual classes:
+.text-muted		:	texto gris
+.text-primary	:	texto azul
+.text-success	:	texto verde
+.text-info		:	texto azul grisaceo
+.text-warning	:	texto naranja grisaceo oscuro
+.text-danger	:	texto guindo
+
+.bg-primary	:	fondo azul,           texto blanco
+.bg-success	:	fondo verde claro,    texto negro
+.bg-info		:	fondo azul claro,     texto negro
+.bg-warning	:	fondo amarillo claro, texto negro
+.bg-danger	:	fondo rojo claro,     texto negro
+
+.lead:			hace que un parrafo destaque
+.small:			texto tamaño 85% del padre
+.text-[left, center, right, justify]: alineaciones de textos
+.text-nowrap: texto sin ajustar
+.text-[lowercase, uppercase, capitalize]: minus, mayus, caps.
+.list-unstyled: quita estilo de lista default y margen izq, solo a hijos inmediatos.
+.list-inline: items de lista, en una sola linea.
+.dl-horizontal: datalists alineados: titulo del lado izquierdo, descripcion del lado derecho, cuando el ancho de la ventana es suficiente.
+.pre-scrollable: <pre> con scroll vertical, y max-height:350px.

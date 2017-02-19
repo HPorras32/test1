@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>HP Money Manager</title>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/holder.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+<!--<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css" />-->
+</head>
+<body>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-xs-12 text-center">
+			<h2>HP Money Manager<br><small>by Hugo Porras</small></h2>
+		</div>
+	</div>
+	<br>
+	
+	<div class="row"> <!-- contenedor de items -->
+		<div class="col-sm-12">
+			<div class="list-group"> <!-- lista de items -->
+				<a href="#" class="list-group-item"> <!-- item 1 -->
+					<div class="row table-bordered">
+						<div class="col-sm-1 table-bordered">
+							<img data-src="holder.js/50x50?text=icono&bg=CC0000">
+						</div>
+						<div class="col-sm-11 table-bordered">
+							<div class="row table-bordered">
+								<div class="col-sm-8 table-bordered">
+									Comida en la calle
+								</div>
+								<div class="col-sm-4 table-bordered">
+									16:04 @ 26/ago/2016
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-8 table-bordered">
+									Comentario de este movimiento... Comentario de este movimiento
+								</div>
+								<div class="col-sm-4 table-bordered text-danger">
+									-$ 1,800.00
+								</div>
+							</div>
+						</div>
+					</div>
+				</a>
+				<a href="#" class="list-group-item"> <!-- item 2 -->
+					<div href="#" class="row">
+						<div class="col-sm-1">
+							<img data-src="holder.js/50x50?text=icono&bg=00CC00" alt="icono">
+						</div>
+						<div class="col-sm-11">
+							<div class="row">
+								<div class="col-sm-8">
+									Comida en la calle
+								</div>
+								<div class="col-sm-4">
+									16:04 @ 26/ago/2016
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-8">
+									Comentario de este movimiento... Comentario de este movimiento
+								</div>
+								<div class="col-sm-4 text-success">
+									$ 1,800.00
+								</div>
+							</div>
+						</div>
+					</div>
+				</a>
+				<a href="#" class="list-group-item"> <!-- item 3 -->
+					<div class="row">
+						<div class="col-sm-1">
+							<img data-src="holder.js/50x50?text=icono&bg=CC0000" alt="icono">
+						</div>
+						<div class="col-sm-11">
+							<div class="row">
+								<div class="col-sm-8">
+									Comida en la calle
+								</div>
+								<div class="col-sm-4">
+									16:04 @ 26/ago/2016
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-8">
+									Comentario de este movimiento... Comentario de este movimiento
+								</div>
+								<div class="col-sm-4 text-danger">
+									-$ 1,800.00
+								</div>
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+	
+	<!--
+	<div class="row show-grid" style="/*border:1px solid red;*/"><!-- tabla general ->
+		<div class="col-xs-12 show-grid" style="/*border:1px solid red;*/">
+			<div class="row show-grid" style="/*border:1px solid lime;*/"> <!-- item 1 ->
+				<div class="col-xs-12">
+					<div class="row" style="/*border:1px solid blue;*/">
+						<div class="col-xs-1">
+							<!--logo->
+						</div>
+						<div class="col-xs-6">
+							<!--concepto->
+							Comida en la calle
+						</div>
+						<div class="col-xs-5">
+							<!--fecha->
+							16:04 @ 28/ago/2016
+						</div>
+					</div>
+					<div class="row" style="/*border:1px solid blue;*/">
+						<div class="col-xs-1">
+							<!--logo->
+						</div>
+						<div class="col-xs-7">
+							<!--comentarios->
+							Comentario de este registro... Comentario de este registro
+						</div>
+						<div class="col-xs-4">
+							<!--monto->
+							-$ 1,800.00
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row" style="/*border:1px solid lime;*/"> <!-- item 2 ->
+				<div class="col-xs-12">
+					<div class="row" style="/*border:1px solid blue;*/">
+						<div class="col-xs-1">
+							<!--logo->
+						</div>
+						<div class="col-xs-6">
+							<!--concepto->
+							Comida en la calle
+						</div>
+						<div class="col-xs-5">
+							<!--fecha->
+							16:04 @ 28/ago/2016
+						</div>
+					</div>
+					<div class="row" style="/*border:1px solid blue;*/">
+						<div class="col-xs-1">
+							<!--logo->
+						</div>
+						<div class="col-xs-7">
+							<!--comentarios->
+							Comentario de este registro... Comentario de este registro
+						</div>
+						<div class="col-xs-4">
+							<!--monto->
+							-$ 1,800.00
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	-->
+	
+	<!--
+	<div class="row" style="border:1px solid red;">
+		<div class="col-xs-1">
+			<--logo->
+		</div>
+		<div class="col-xs-6">
+			<!--concepto->
+			Comida en la calle
+		</div>
+		<div class="col-xs-5">
+			<!--fecha->
+			16:04 @ 28/ago/2016
+		</div>
+	</div>
+	<div class="row" style="border:1px solid red;">
+		<div class="col-xs-1">
+			<!--logo->
+		</div>
+		<div class="col-xs-7">
+			<!--comentarios->
+			Comentario de este registro... Comentario de este registro
+		</div>
+		<div class="col-xs-4">
+			<!--monto->
+			-$ 1,800.00
+		</div>
+	</div>
+	-->
+	
+</div>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
